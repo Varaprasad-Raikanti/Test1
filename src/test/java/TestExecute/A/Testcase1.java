@@ -8,13 +8,13 @@ import TestComponent.SampleComponent1.AHelper;
 import TestLib.Common;
 import TestLib.Login;
 
-public class Test_DGLD_HF_ST_001_Guest_user_Checkout_Funtionality_Visa_card {
+public class Testcase1 {
 
 	String datafile = "A//A.xlsx";
 	AHelper A = new AHelper(datafile,"DataSet");
 
 	@Test(retryAnalyzer = Utilities.RetryAnalyzer.class)
-	public void Validate_Guest_Checkout_Funtionality_Visa_card () throws Exception {
+	public void ValidateTestcase1() throws Exception {
 //      for(int i=0;i<3;i++)
 //      {
 		try {
